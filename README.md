@@ -6,7 +6,7 @@ ChaosForge is a local-first **Site Reliability Engineering (SRE) and Chaos Engin
 
 Instead of asking *"Does the application work?"*, ChaosForge asks:
 
-> **"What happens when it stops working — and how quickly can we recover it?"**
+> **"What happens when it stops working and how quickly can we recover it?"**
 
 The platform combines **Docker, PowerShell, Prometheus, Grafana, Python/FastAPI, automated incident recovery, MTTR measurement, SLO tracking, and error-budget analysis** into a reproducible local reliability laboratory.
 
@@ -707,20 +707,4 @@ This project is available for educational and portfolio purposes.
 
 
 
-### One important correction before you paste it
 
-
-Your current repository contains `detector/`, `docs/`, `recovery/`, and `tests/`, but your last `git status` showed those directories were **not staged because they apparently contain no tracked files**. Git doesn't track empty directories.
-
-
-So the README's structure accurately reflects the folders you showed me, but GitHub may not display those empty directories.
-
-
-### Put it into the repo
-
-
-From:
-
-
-```powershell
-cd "$HOME\chaosforge"
