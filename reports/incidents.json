@@ -1,0 +1,41 @@
+﻿[
+    {
+        "incident_id":  "INC-0001",
+        "type":  "API_DOWN",
+        "service":  "api",
+        "severity":  "CRITICAL",
+        "detected_at":  "2026-08-18T15:28:27.1970000+00:00",
+        "detected_epoch_ms":  1787066907197,
+        "status":  "RECOVERED",
+        "recovery_action":  "docker compose start api",
+        "recovered_at":  "2026-08-18T15:28:32.4380000+00:00",
+        "recovered_epoch_ms":  1787066912438,
+        "mttr_seconds":  5.241
+    },
+    {
+        "incident_id":  "INC-0002",
+        "type":  "API_DOWN",
+        "service":  "api",
+        "severity":  "CRITICAL",
+        "detected_at":  "2026-08-18T15:43:48.3900000+00:00",
+        "detected_epoch_ms":  1787067828390,
+        "status":  "RECOVERED",
+        "recovery_action":  "docker compose start api",
+        "recovered_at":  "2026-08-18T15:43:55.8530000+00:00",
+        "recovered_epoch_ms":  1787067835853,
+        "mttr_seconds":  7.463
+    },
+    {
+        "incident_id":  "INC-0003",
+        "type":  "API_DOWN",
+        "service":  "api",
+        "severity":  "CRITICAL",
+        "detected_at":  "2026-08-18T15:48:34.2670000+00:00",
+        "detected_epoch_ms":  1787068114267,
+        "status":  "RECOVERED",
+        "recovery_action":  "docker compose start api",
+        "recovered_at":  "2026-08-18T15:48:41.7290000+00:00",
+        "recovered_epoch_ms":  1787068121729,
+        "mttr_seconds":  7.462
+    }
+]
